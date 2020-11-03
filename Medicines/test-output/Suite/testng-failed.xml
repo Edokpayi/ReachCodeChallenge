@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="testCases.Listeners"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="testCases.ValidatePageBrowse">
+        <methods>
+          <include name="quiteSession"/>
+          <include name="getBrowsePages"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- testCases.ValidatePageBrowse -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
